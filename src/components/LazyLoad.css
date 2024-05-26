@@ -1,0 +1,9 @@
+.lazy-load {
+    opacity: 0; /* Initially hide the content */
+    transition: opacity 2s ease; /* Increase transition duration to 1 second */
+  }
+  
+  .lazy-load.visible {
+    opacity: 1; /* When the content becomes visible, gradually make it fully visible */
+  }
+  

@@ -1,0 +1,30 @@
+.banner .swiper {
+    width: 250px;
+    height: 285px;
+  }
+  
+  .banner .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    background-size: cover; /* Ensure the image covers the slide area */
+    background-position: center; /* Center the image within the slide */
+  }
+  
+  .banner .swiper-slide:nth-child(1) {
+    background-image: url('../assets/flower1.jpg'); /* Ensure correct path */
+  }
+  
+  .banner .swiper-slide:nth-child(2) {
+    background-image: url('../assets/flower2.jpg'); /* Ensure correct path */
+  }
+  
+  .banner .swiper-slide:nth-child(3) {
+    background-image: url('../assets/flower3.jpg'); /* Ensure correct path */
+  }
+  
+ 
